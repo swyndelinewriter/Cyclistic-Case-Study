@@ -337,6 +337,7 @@ ggplot(weekday_counts, aes(
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
+![Number of Trips by Day of the Week](number_of_trips_by_day.png)
 
 ### Visualization of Average Trip lengths by user type per day
 
@@ -386,6 +387,7 @@ ggplot(avg_ride_length_combined, aes(
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
+![Average Ride Length by Day of Week](avg_ride_length.png)
 
 ## Key Findings As Related to Business Task
 
